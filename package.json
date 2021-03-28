@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guhungry/react-native-photo-manipulator.git"
+    "url": "git+https://github.com/bruno02100/react-native-photo-manipulator.git"
   },
   "keywords": [
     "react-native",
@@ -58,9 +58,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guhungry/react-native-photo-manipulator/issues"
+    "url": "https://github.com/bruno02100/react-native-photo-manipulator/issues"
   },
-  "homepage": "https://github.com/guhungry/react-native-photo-manipulator#readme",
+  "homepage": "https://github.com/bruno02100/react-native-photo-manipulator#readme",
   "files": [
     "android",
     "ios",
