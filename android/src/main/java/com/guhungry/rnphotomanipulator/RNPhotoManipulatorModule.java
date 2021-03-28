@@ -77,7 +77,7 @@ public class RNPhotoManipulatorModule extends ReactContextBaseJavaModule {
             if (uri == null) return;
 
             Bitmap overlay = ImageUtils.bitmapFromUri(getReactApplicationContext(), operation.getString("overlay"));
-            BitmapUtils.overlay(image, overlay, ParamUtils.pointfFromMap(operation.getMap("position")));
+            BitmapUtils.overlay(image.copy(Bitmap.Config.ARGB_8888, true), overlay, ParamUtils.pointfFromMap(operation.getMap("position")));
         }
     }
 
