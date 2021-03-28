@@ -48,6 +48,4 @@ android/gradle
 android/gradlew
 android/gradlew.bat
 
-lib/
-
 example/ios/Pods
